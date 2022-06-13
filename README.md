@@ -3,7 +3,7 @@
 
 This implementation is in progress as some issues are currently not solved (see below). No internal hierarchy here, but you can use numbers, Vector, Matrix, Quat and Nurbs Curve. API of these types can be found in `maya_module\rigpp\runtime\include\rigpp_math.hpp`.
 
-Math implementation is mostly Imath based, but no templates used at all. API is more simplified and this is the way it should be here. No well tested yet.
+Math implementation is mostly Imath based, but no templates used at all. API is more simplified and this is the way it should be here. Not well tested yet.
 
 # File structure
 
