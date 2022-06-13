@@ -15,6 +15,7 @@ Math implementation is mostly Imath based, but no templates used at all. API is 
 | /scripts | Additional python scripts. |
 | plugin| Sources for rigpp compilation. | 
 | vscode_project| Predefined vscode project to work with rigpp. | 
+| examples | Maya files with simple examples |
 
 Please make sure  libs and default includes are packed into an archive. Just unzip all of them as described in readme.txt in each appropriate folder. Notice that debug libraries are not provided with the sources due to their large size (>6.5GB). They will be distributed separately (on release page).
 
