@@ -29,6 +29,8 @@ If you don't like modules, load `rigpp.mll` any way you want and make sure you h
   Use `extern type @var` for your attributes to make them visible in your code.
 
 If the value of `rigpp._source` attribute is a C++ file, then `.bc` file will be created near that file. Bitcode files are dependency free (no includes are required to load and evaluate them)!
+
+`Invalid main function` means you have wrong extern declarations (not all symbols are resolved). Check attribute types.
   
 # Issues
 ### Name mangling
