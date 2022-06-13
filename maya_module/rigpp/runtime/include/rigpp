@@ -1,0 +1,10 @@
+#include <string>
+#include "rigpp_math.hpp"
+
+using namespace std;
+
+extern "C" void c_print(const char *);
+void print(const string &s) { c_print(s.c_str()); }
+
+extern "C" void c_error(const char *);
+void error(const string &s) { c_error(s.c_str()); }
