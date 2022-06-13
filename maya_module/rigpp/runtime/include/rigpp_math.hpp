@@ -589,7 +589,7 @@ public:
         //
 
         Matrix N;
-        N.rotate(Vector(deg(-rot.x), 0, 0));
+        N.rotate(Vector(-rot.x, 0, 0));
         N = N * M;
 
         //
