@@ -1,7 +1,7 @@
 # Basics
 **Rigpp** is a rigging system based on C++ runtime evaluation using LLVM/Clang. It uses LLVM and Clang of 14.0.0 version, which could be upgraded to any version you want. There are no additional dependencies as all the tools are already included. 
 
-This implementation is in progress as some issues are currently not solved (see below). No internal hierarchy here, but you can use numbers, Vector, Matrix, Quat and Nurbs Curve. API of these types you can be found in `maya_module\rigpp\runtime\include\rigpp_math.hpp`.
+This implementation is in progress as some issues are currently not solved (see below). No internal hierarchy here, but you can use numbers, Vector, Matrix, Quat and Nurbs Curve. API of these types can be found in `maya_module\rigpp\runtime\include\rigpp_math.hpp`.
 
 Math implementation is mostly Imath based, but no templates used at all. API is more simplified and this is the way it should be here.
 
